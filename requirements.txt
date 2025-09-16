@@ -5,10 +5,11 @@ scikit-learn
 matplotlib
 seaborn
 
-# Deep Learning Stack (Known Stable Versions)
-tensorflow==2.16.2
+# Deep Learning Stack
+tensorflow
 
 # Notebook & Utility
 jupyter
 requests
 pillow
+streamlit
