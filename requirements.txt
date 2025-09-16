@@ -1,0 +1,14 @@
+# Core Data Science Libraries
+pandas
+numpy==1.26.4
+scikit-learn
+matplotlib
+seaborn
+
+# Deep Learning Stack (Known Stable Versions)
+tensorflow==2.16.2
+
+# Notebook & Utility
+jupyter
+requests
+pillow

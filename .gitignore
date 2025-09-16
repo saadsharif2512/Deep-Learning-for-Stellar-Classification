@@ -1,0 +1,15 @@
+# Python Virtual Environment
+.venv/
+
+# Secret Files
+credentials.json
+
+# Streamlit Local Secrets
+.streamlit/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code Settings
+.vscode/
