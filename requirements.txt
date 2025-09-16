@@ -1,14 +1,9 @@
-# Core Data Science Libraries
 pandas
 numpy==1.26.4
 scikit-learn
 matplotlib
 seaborn
-
-# Deep Learning Stack
-tensorflow
-
-# Notebook & Utility
+tensorflow==2.16.2
 jupyter
 requests
 pillow
