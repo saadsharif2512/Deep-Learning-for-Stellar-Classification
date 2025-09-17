@@ -52,8 +52,8 @@ df = load_data()
 model, label_encoder, scaler = load_artifacts()
 
 # --- Main App UI ---
-st.title("Deep Learning for Stellar Classification")
-st.write("This app uses a Neural Network to classify celestial objects as Galaxies, Quasars, or Stars based on their observational data from the Sloan Digital Sky Survey (SDSS).")
+st.title("DeepSpace")
+st.write("This app uses a neural network to classify celestial objects as Galaxies, Quasars, or Stars based on their observational data from the Sloan Digital Sky Survey (SDSS).")
 
 if model is None or label_encoder is None or scaler is None:
     st.error("Model, encoder, or scaler files not found. Please run the Jupyter notebook to generate these files.")
